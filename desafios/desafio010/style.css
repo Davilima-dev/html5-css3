@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@font-face {
+ font-family:"idroid";
+ src: url("pacote-projeto-d010/fontes/idroid.otf") format(opentype);
+}
+header{
+    border-radius: 10px 10px 0px 0px;
+    background-image: linear-gradient(to bottom, rgb(41, 150, 90), rgb(6, 61, 30));
+    color: white;
+    padding: 50px 0px 0px 0px;
+}
+nav>a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px; 
+    font-size: 1em;
+    font-weight: bold;
+}
+nav>a:hover{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(144, 196, 144);
+    text-align: justify;
+}
+main{
+    background-color: white;
+    margin: 0px 20px;
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+header>h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+header>p{
+    text-align: center;
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+h2{
+    color: green;
+    background-image: linear-gradient(to right, rgba(138, 247, 138, 0.514), white);
+}
+h3{
+    color: green;
+    background-image: linear-gradient(to right, rgba(138, 247, 138, 0.514), white);
+}
+h4{
+    background-color: rgb(13, 82, 13);
+    color: white;
+    padding: 10px;
+    margin: 10px -10px;
+}
+.H{
+    font-family: "idroid";
+}
+aside{
+    background-color: rgb(130, 224, 173);
+    padding: 0px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+p{
+    text-indent: 20px;
+}
+footer>p{
+    background-color:rgb(6, 61, 30);
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+    text-align: center;
+    width: auto;
+}
+a.L{
+    background-image: linear-gradient(to right, rgba(138, 247, 138, 0.514), white);
+    color: rgb(13, 119, 27);
+    font-weight: bolder;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0px 5px;
+}
+.L:hover{
+    text-decoration: underline;
+}

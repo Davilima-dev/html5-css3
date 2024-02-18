@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+}
+body > main{
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(159, 255, 223);
+}
+header{
+    background-color: aqua;
+    padding: 0em;
+}
+header > h1{
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    font-size: 4em;
+}
+p{
+    text-align: justify;
+    padding: 2.5em;
+    margin: 0px;
+    font-size: 1.5em;
+}
