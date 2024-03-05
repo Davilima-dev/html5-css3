@@ -1,53 +1,60 @@
 @charset "UTF-8";
 @font-face {
- font-family:"idroid";
- src: url("pacote-projeto-d010/fontes/idroid.otf") format(opentype);
+    font-family:"idroid";
+    src: url("pacote-projeto-d010/fontes/idroid.otf") format(opentype);
 }
-header{
-    border-radius: 10px 10px 0px 0px;
-    background-image: linear-gradient(to bottom, rgb(41, 150, 90), rgb(6, 61, 30));
-    color: white;
-    padding: 50px 0px 0px 0px;
-}
-nav>a{
-    text-decoration: none;
-    color: white;
-    padding: 0px 10px; 
-    font-size: 1em;
-    font-weight: bold;
-}
-nav>a:hover{
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 5px;
-    box-sizing: border-box;
-}
+
 body{
+    margin: 0px;
     background-color: rgb(144, 196, 144);
     text-align: justify;
 }
-main{
-    background-color: white;
-    margin: 0px 20px;
-    padding: 10px 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: small;
+
+header{
+    border-radius: 10px 10px 0px 0px;
+    background-image: linear-gradient(to bottom, rgb(57, 226, 133), rgb(6, 61, 30));
+    color: white;
+    padding: 50px 0px 2px 0px;
 }
+
 header>h1{
     font-size: 2.5em;
     text-align: center;
 }
+
 header>p{
     text-align: center;
     font-size: 1em;
     padding-bottom: 20px;
 }
-h2{
-    color: green;
-    background-image: linear-gradient(to right, rgba(138, 247, 138, 0.514), white);
+
+nav>a{
+    text-decoration: none;
+    color: rgb(38, 201, 79);
+    padding: 0px 15px; 
+    font-size: 1em;
+    font-weight: bold;
 }
-h3{
+
+nav>a:hover{
+    border: 2px solid rgb(38, 201, 79);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+main{
+    max-width: 900px;
+    background-color: white;
+    margin: auto;
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+/**Títulos**/
+h2, h3{
     color: green;
     background-image: linear-gradient(to right, rgba(138, 247, 138, 0.514), white);
+    font-family: "idroid";
 }
 h4{
     background-color: rgb(13, 82, 13);
@@ -55,28 +62,46 @@ h4{
     padding: 10px;
     margin: 10px -10px;
 }
-.H{
-    font-family: "idroid";
-}
+
 aside{
     background-color: rgb(130, 224, 173);
     padding: 0px 10px 10px 10px;
     border-radius: 0px 0px 10px 10px;
 }
+
 p{
     text-indent: 20px;
 }
+
 footer>p{
     background-color:rgb(6, 61, 30);
-    color: white;
+    color: rgba(64, 247, 177, 0.61);
     text-align: center;
-    margin: 10px;
+    margin: 10px 0px 0px 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 div{
-    text-align: center;
-    width: auto;
+    margin: 0px -20px 30px -20px;
+    background-color: green;
+    padding: 10px;
+    padding-bottom: 58%;
+
+    position: relative;
 }
+div>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.Lista{
+    list-style-position: inside;
+    columns: 2;
+}
+
 a.L{
     background-image: linear-gradient(to right, rgba(138, 247, 138, 0.514), white);
     color: rgb(13, 119, 27);
@@ -85,6 +110,13 @@ a.L{
     font-family:Arial, Helvetica, sans-serif;
     padding: 0px 5px;
 }
+
 .L:hover{
     text-decoration: underline;
+}
+
+picture.img{
+    width: 50%;
+    display: block;
+    margin: auto;
 }
