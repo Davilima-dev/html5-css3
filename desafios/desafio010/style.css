@@ -12,19 +12,19 @@ body{
 
 header{
     border-radius: 10px 10px 0px 0px;
-    background-image: linear-gradient(to bottom, rgb(57, 226, 133), rgb(6, 61, 30));
+    background-image: linear-gradient(to bottom, rgb(57, 226, 133), #063d1e);
     color: white;
     padding: 50px 0px 2px 0px;
 }
 
 header>h1{
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: center;
 }
 
 header>p{
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
     padding-bottom: 20px;
 }
 
@@ -32,7 +32,7 @@ nav>a{
     text-decoration: none;
     color: rgb(38, 201, 79);
     padding: 0px 15px; 
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: bold;
 }
 
@@ -43,42 +43,22 @@ nav>a:hover{
 }
 
 main{
-    max-width: 900px;
+    min-width: 300px;
+    max-width: 1000px;
     background-color: white;
     margin: auto;
     padding: 10px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
 }
-/**Títulos**/
-h2, h3{
-    color: green;
-    background-image: linear-gradient(to right, rgba(138, 247, 138, 0.514), white);
-    font-family: "idroid";
-}
-h4{
-    background-color: rgb(13, 82, 13);
-    color: white;
-    padding: 10px;
-    margin: 10px -10px;
-}
 
-aside{
-    background-color: rgb(130, 224, 173);
-    padding: 0px 10px 10px 10px;
-    border-radius: 0px 0px 10px 10px;
+main img{
+    width: 100%;
 }
-
-p{
-    text-indent: 20px;
-}
-
-footer>p{
-    background-color:rgb(6, 61, 30);
-    color: rgba(64, 247, 177, 0.61);
-    text-align: center;
-    margin: 10px 0px 0px 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.pequeno{
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 div{
@@ -97,13 +77,57 @@ div>iframe{
     height: 90%;
 }
 
-.Lista{
-    list-style-position: inside;
-    columns: 2;
+/**Títulos**/
+h2, h3{
+    color: green;
+    background-image: linear-gradient(to right, rgba(138, 247, 138, 0.514), white);
+    font-family: "idroid";
+    font-size: 2em;
+}
+h4{
+    background-color: rgb(13, 82, 13);
+    color: white;
+    padding: 10px;
+    margin: 10px -10px;
+}
+
+aside{
+    background-color: rgb(130, 224, 173);
+    padding: 0px 10px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+aside>ul{
+        list-style-position: inside;
+        columns: 2;
+        line-height: 1.6em;
+        list-style-type: "\1F60B\00a0\0020";
+    }
+
+p{
+    text-indent: 20px;
+    font-size: 1.3em;
+}
+
+footer>p{
+    background-color:rgb(6, 61, 30);
+    color: rgba(64, 247, 177, 0.61);
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#U{
+    color: rgba(64, 247, 177, 0.61);
+    text-decoration: none;
+}
+#U:hover{
+    color: rgb(13, 119, 27);
+    text-decoration: underline;
 }
 
 a.L{
-    background-image: linear-gradient(to right, rgba(138, 247, 138, 0.514), white);
+   background-color:rgba(69, 255, 94, 0.829) ;
     color: rgb(13, 119, 27);
     font-weight: bolder;
     text-decoration: none;
@@ -113,10 +137,4 @@ a.L{
 
 .L:hover{
     text-decoration: underline;
-}
-
-picture.img{
-    width: 50%;
-    display: block;
-    margin: auto;
 }
