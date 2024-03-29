@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    padding: 0px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+}
+
+main {
+    background-color: rgb(240, 255, 240);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.cabeçalho{
+    background-image: url(Imagens/imagem\ notas\ musicais.jpg);
+    margin: 0px -100% 0px -100%;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    padding: 70px;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em; 
+    padding: 10px;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 10px;
+}
